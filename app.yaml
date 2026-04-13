@@ -1,0 +1,14 @@
+name: spend-and-applications-dashboard
+region: nyc
+services:
+  - name: web
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME
+    source_dir: /
+    environment_slug: python
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    http_port: 8501
+    run_command: streamlit run app.py --server.address=0.0.0.0 --server.port=$PORT

@@ -1,0 +1,16 @@
+.DS_Store
+.pycache_local/
+.streamlit/secrets.toml
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+ENV/
+
