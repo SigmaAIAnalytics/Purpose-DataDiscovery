@@ -1,6 +1,6 @@
 # Purpose Marketing Analytics Dashboard
 
-> Interactive visualizations for Purpose Marketing spend and application data — built with AI assistance and deployed on Digital Ocean App Platform.
+> Interactive visualizations for Purpose Marketing spend and application data — built with AI assistance and deployed on Digital Ocean App Platform ( https://octopus-app-4x3hx.ondigitalocean.app/ )
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![React](https://img.shields.io/badge/Frontend-React-61DAFB)
